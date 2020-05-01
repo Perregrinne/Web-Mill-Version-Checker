@@ -1,0 +1,13 @@
+[package]
+name = "web_mill_version_checker"
+version = "0.1.0"
+authors = ["Perregrinne <ajacob779@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "2.0.0"
+actix-rt = "1.1.0"
+actix-files = "0.2.1"
+job_scheduler = "1.2.1"

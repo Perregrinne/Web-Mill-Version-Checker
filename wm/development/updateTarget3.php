@@ -1,0 +1,1 @@
+<?php echo "Failed to delete file. Overwritten instead."; ?>
