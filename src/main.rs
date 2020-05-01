@@ -1,6 +1,5 @@
-use actix_web::{web, App, HttpServer, HttpRequest, Responder, Result};
+use actix_web::{web, App, HttpServer, Responder};
 use actix_files as fs;
-use std::path::PathBuf;
 
 async fn index() -> impl Responder {
     "7.2.1 0.1.0"
@@ -8,10 +7,6 @@ async fn index() -> impl Responder {
 
 async fn ping() -> impl Responder {
     "I live!"
-}
-
-async fn wm_update() -> impl Responder {
-    "m"
 }
 
 #[actix_rt::main]
